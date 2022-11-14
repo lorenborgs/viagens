@@ -1,0 +1,152 @@
+
+* {                                  /* o asterisco significa que quero selecionar TODAS as tags do codigo html, e vou aplicar as propriedades desse bloco em todas.*/              
+    margin: 0;                      /* margin é uma regra que define espaçamentos externos dos elementos   */
+    padding: 0;                     /* padding é um espaçamento interno, ele é bom quando queremos separar o conteudo da borda do elemento */
+    box-sizing: border-box; 
+    text-decoration: none;      
+    list-style: none;  
+}
+
+li, a, button {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700px;
+    font-size: 16px;
+    color: white;
+
+}
+
+body {
+    background-image: url(./imagens/foto1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    
+}
+
+header {
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    padding: 30px 4%;
+    font-weight: bold;
+}
+
+.logo {
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.nave {
+    margin-left: 70px;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 0px 20px;
+    font-style: bold;
+}
+
+.navbar li a {
+    transition: all 0.3s ease 0s;
+}
+
+.navbar li a:hover {
+    border-bottom: 3px solid #F25D02;
+}
+
+
+
+button {
+    padding: 10px 28px;
+    background:none;
+    border: 2px solid #F25D02;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-left: 700px;
+    gap: 10px;
+    font-weight: bold;
+}
+
+button:hover {
+    color: rgb(242, 93, 2, 0.8);
+    border: 2px solid white;
+}
+
+
+
+/*  TITULO E FORMULÁRIO */
+
+.descubra {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 63px;
+    font-weight: bolder;
+    margin-top: 60px;
+    padding: 0px 9%;
+}
+
+.lugares {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 44px;
+    font-weight: bold;
+    padding: 0px 9%;
+}
+
+.formulario {
+    padding: 0px 9%;
+    margin-top: 30px;
+    color: white;
+}
+
+.inputBox {
+    position: relative;
+    padding: 10px 0px;
+}
+
+.inputUser {
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 340px;
+    letter-spacing: 2px;
+}
+
+.labelInput {
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+    color: white;
+    font-weight:lighter;
+}
+
+.inputUser:focus ~ .labelInput {
+    top: -20px;
+    font-size: 12px;
+    color: #F25D02;
+}
+
+.explore {
+    padding: 5px ;
+    margin-top: 10px;
+    width: 120px;
+    height: 40px;
+    border-radius: 8px;
+    background: #F25D02;
+    border: none;
+    cursor: pointer;
+    
+}
+
+input {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
