@@ -1,7 +1,7 @@
 
-* {                                  /* o asterisco significa que quero selecionar TODAS as tags do codigo html, e vou aplicar as propriedades desse bloco em todas.*/              
-    margin: 0;                      /* margin é uma regra que define espaçamentos externos dos elementos   */
-    padding: 0;                     /* padding é um espaçamento interno, ele é bom quando queremos separar o conteudo da borda do elemento */
+* {                                                
+    margin: 0;                      
+    padding: 0;                     
     box-sizing: border-box; 
     text-decoration: none;      
     list-style: none;  
